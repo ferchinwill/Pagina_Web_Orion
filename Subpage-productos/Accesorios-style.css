@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-top: 100px;
+}
+
+
+
+.apoyo5 {
+  margin-top: 20px;
+  margin-right: 400px;
+  margin-left: 400px;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.separador-parrafos{
+  height: 190px;
+}
+
+.Text-titulo h2 {
+  width: auto;
+  font-size: 100px auto;
+  font-style: bold;
+  padding: 40px 20px;
+}
+
+.Text-titulo{
+  font-size: 50px auto;
+  font-style: bold;
+}
+
+hr{
+  background-color: red;
+}
+.contenido-txt{
+  font-size: 60px auto;
+  
+}
+
+
+.Pineapple {
+  float: right;
+  width: 300x;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  background-attachment: fixed;
+}
+
+
+.boton-regreso {
+  height: 70px;
+  margin-left: 20px;
+
+}
+
+.boton-regreso:hover .boton-regreso {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+
+}
+
+.lineart{
+  width: 500px;
+  background: linear-gradient(to right, red, rgb(104, 104, 101));
+  height: 5px;
+  
+}
+
+
+.container-portada {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+  position: relative;
+  background-image: url(/imgTrabajos/IMG_20210227_122925.jpg);
+
+  background-size: 105%;
+  animation: movimiento 15s infinite linear alternate;
+}
+
+@keyframes movimiento {
+  from {
+    background-position: bottom left;
+  }
+
+  to {
+    background-position: top right;
+  }
+}
+
+
+.capa-gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: -webkit-linear-gradient(left, black, #0672d0);
+  opacity: 0.5;
+}
+
+.container-details {
+  width: 200%;
+  max-width: 1500px;
+  top: 60px;
+  position: relative;
+  margin: auto;
+}
+
+
+.details {
+  width: 100%;
+  max-width: 1600px;
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+.details h1 {
+
+  font-size: 60px;
+  margin-left: 10px;
+}
+
+.details p {
+  margin-top: 30px;
+  font-size: 30px;
+  color: rgb(241, 210, 68);
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+.details button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: none;
+  border-style: none;
+  border: 1px solid white;
+  color: white;
+  margin-top: 20px;
+  transition: background 300ms;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.details button:hover {
+  background: white;
+  color: black;
+}
+
+.separador-recargas1 div {
+  height: 10rem;
+}
+
+.icon-casa {
+  width: 25px ;
+  height: 25px ;
+  
+}
+
+.txtboton {
+  margin-top: 20px;
+  margin-right: 400px;
+  margin-left: 400px;
+  
+  
+}
+
+
+
+.txtboton div {
+  display: inline-block;
+}
+
+.txtboton a {
+  font-size: 20px;
+  
+
+}
+
+.txtboton :hover{
+   color: rgb(27, 3, 247);
+  transition: .5s;
+}
+
+
+.boton-regreso {
+  overflow: hidden;
+
+}
+
+.boton-regreso p {
+  color: #ffffff;
+  font-size: 20px;
+
+}
+
+.column {
+  float: left;
+  margin-left: 100px;
+  margin-right: auto;
+  padding: 20px;
+  height: 50px;
+  /* Should be removed. Only for demonstration */
+}
+
+.left ,
+.right {
+  width: 35%;
+}
+
+.middle {
+  width: 35%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+

@@ -1,0 +1,74 @@
+.slider {
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    border-color: rgba(0, 0, 0, 0.062);
+    border-style: ridge;
+    border-radius: 15px;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px *14);
+}
+
+.slider .slide {
+
+    width: 200px;
+}
+
+.slider .slide img {
+
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-200px *7));
+        transform: translateX(calc(-200px *7));
+    }
+}
+
+/************contenedor de botones inferiores del slider********************/
+.contendor-telefonos{
+    padding: 40px 40px 40px ;
+    margin: 65px auto ;
+}
+
+.link-slider li{
+    display: inline;
+    padding-left:50px;
+    padding-right:50px;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rg ba(128, 128, 128, 0.027);
+    border-style: solid;
+    border-color: #4948481a;
+
+}
+.link a {
+    font-size: 35px;
+    
+    
+}
+
+.telefono1-slider{
+    width: 20px;
+    
+}
+.telefono2-slider{
+    width: 20px;
+}
+
+.correo-slider{
+    width: 20px;
+  }

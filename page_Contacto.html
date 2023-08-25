@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="backend.js">
+  <link rel="stylesheet" href="slider.css">
+  <link rel="stylesheet" href="NavBar.css">
+  <link rel="stylesshet" href="socialBarstyle.css">
+  
+  <link rel="stylesheet" href="styles-Contacto.css">
+  <link rel="stylesheet" href="Contacto-correo.php">
+</head>
+
+<body>
+
+  <div class="social-body">
+    <ul>
+      <li class="facebook"><a href=""><i class="fa fa-facebook"></i></a></li>
+      <li class="twitter"><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+    </ul>
+  </div>
+
+
+  <header id="main-header">
+
+    <a id="parteLogo">
+      <a class="logoB" href="Page_inicio.html"><img class="logo" src="Logos/logo oficial recorte.png" alt="logo"></a>
+
+    </a> <!-- / #logo-header -->
+
+    <nav>
+      <ul>
+        <li><a href="page_productos.html">PRODUCTOS </a></li>
+        <li><a href="page_servicios.html">SERVICIOS</a></li>
+        <li><a href="page_QuienesSomos.html">QUIENES SOMOS</a></li>
+        <li><a href="page_Contacto.html">CONTACTO</a></li>
+        <li><a href="page_Login.html">LOGIN</a></li>
+
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <section class="inicio-productos">
+    <div class="separador-inicio-P">
+
+    </div>
+  </section>
+
+
+  <div class="container-portada">
+    <div class="capa-gradient"></div>
+    <div class="container-details">
+      <div class="details">
+        <h1>Contactanos</h1>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="container">
+    <h1></h1>
+    <p>"tu pudes ser tu propio bombero"</p>
+    <form action="Contacto-correo.php" method="POST">
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="subject">Asunto:</label>
+        <input type="text" name="subject" id="subject">
+        <label for="message">Mensaje:</label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+ 
+
+
+</body>
+
+</html>

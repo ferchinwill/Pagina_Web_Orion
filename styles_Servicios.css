@@ -1,0 +1,85 @@
+.Servicios-img {
+    float: right;
+    width: 300x;
+    height: 300px;
+    border-radius: 8px;
+    display: inline-block;
+    background-attachment: fixed;
+}
+
+.Servicios-img-left {
+    float: left;
+    width: 300x;
+    height: 300px;
+    border-radius: 8px;
+    display: inline-block;
+    background-attachment: fixed;
+}
+
+.Text-titulo h2 {
+    width: auto;
+    font-size: 40px;
+    font-style: bold;
+    padding: 40px 20px;
+}
+
+.Text-titulo-right h2 {
+    width: auto;
+    text-align: right;
+    font-size: 40px;
+    font-style: bold;
+    padding: 40px 20px;
+}
+
+.lineart-right {
+    float: right;
+    margin: auto;
+    width: 500px;
+    background: linear-gradient(to right, red, rgb(104, 104, 101));
+    height: 5px;
+
+}
+
+.margen-pagina-left {
+    margin-top: 20px;
+    margin-right: 100px;
+    margin-left: 300px;
+    height: auto;
+    float: left;
+    border-radius: 15px;
+
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+.margen-pagina-right {
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 100px;
+    height: auto;
+
+    float: right;
+
+    box-shadow:
+        inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+
+}
+
+
+.fondo {
+    height: 400px;
+    background-color: blue;
+    display: inline-flex;
+}
+
+.fondo2 {
+    height: 200px;
+    background-color: rgb(3, 3, 3);
+    display: inline-flex;
+
+}
